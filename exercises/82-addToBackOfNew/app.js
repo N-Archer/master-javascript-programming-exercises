@@ -1,6 +1,5 @@
 // Write your function here
 
-
 const addToBackOfNew = (array, number) => {
     let newArray = array.map(element => element);
         newArray.push(number);
